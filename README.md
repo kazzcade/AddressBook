@@ -3,8 +3,8 @@
 The purpose of this project is to not only test your ability to solve a problem, but also understand how you go about solving a problem. You do not need to complete this project, but the closer you get the easier it is to evaluate. Once you feel you have done enough we will review your results and talk about what decisions you made and why. It is more important to speak to why you made a decision than making the "right" choice.
 
 ## Business Requirements
-You are given the task of creating an address book for company employees. You have the option to build it either as a public company directory accessible to everyone or as a private directory for individual users. Whatever you build, your application must contain *at least* these features:
-1. Display contacts in a list, in descending order by last name.
+You are given the task of creating an address book for company employees. You have the option to build it either as a public company directory accessible to everyone or as a private directory for individual users. Whatever you choose to build, your application must contain *at least* these features:
+1. Display contacts in a list, defaulted to order by last name.
 2. Users will be able to search contacts.
 3. A contact detail view will show when a user selects a contact from the list.
 4. Contacts must have *at least* these fields: first name, last name, email, phone number, address, birthdate, and notes.
