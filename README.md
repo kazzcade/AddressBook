@@ -1,25 +1,35 @@
-# Address Book
-## Purpose
-The purpose of this project is to not only test your ability to solve a problem, but also understand how you go about solving a problem. You do not need to complete this project, but the closer you get the easier it is to evaluate. Once you feel you have done enough we will review your results and talk about what decisions you made and why. It is more important to speak to why you made a decision than making the "right" choice.
+# Address-Book
 
-## Business Requirements
-You are given the task of creating an address book for company employees. You have the option to build it either as a public company directory accessible to everyone or as a private directory for individual users. Whatever you choose to build, your application must contain *at least* these features:
-1. Display contacts in a list, defaulted to order by last name.
-2. Users will be able to search contacts.
-3. A contact detail view will show when a user selects a contact from the list.
-4. Contacts must have *at least* these fields: first name, last name, email, phone number, address, birthdate, and notes.
-5. Users will have the ability to create, update, and delete contacts.
- 
-## Technical Requirements
-1. There is no time limit. Take as long as you think you need.
-2. You __must__ use a front-end library or framework such as angular, react, vue, etc.
-3. You __must__ write a backend component. Here at Kazzcade, we use myriad of languages, including Golang, Python, and Typescript/JavaScript. However, you are free to use whatever language you choose.
-4. Provide documentation on how to compile and run your application.
+## Address-Book is a full-stack web app that provides an address book for the user. It's theme is established currently as a public directory for employees of the fictitious - Michael Scott Paper Company.  
 
-## Extra Credit (but not required)
-1. Provide at least one unit test for your client code and one unit test for your backend code.
-2. Use routing in your front-end application.
-3. Containerize your application using Docker.
+## Technologies used:
+1. ReactJs
+2. NodeJs
+3. Express
+4. MongoDB
+5. Node-fetch
+6. Mongoose
+7. NPM
+8. Fetch API
 
-## Submit 
-Fork this project and create a PR when you are ready for a review. If you have any questions, create an issue and call me out (@anigenero) so that anyone else participating can benefit from our Q&A.
+## The application works by letting the user create an address book. Once a contact is created the user has the ability to edit or delete that contact. A search bar allows the user to find contacts already established in the address book. A detailed view of the contacts information is provided when a contact is selected. Contacts are displayed for the user in alphabetical order by last name.
+
+## To compile and run application:
+###  Source code from my repo can by forked. NPM install Mongoose, Axios and Express. User will also need  MongoDB database application installed locally.
+### Once all dependencies are installed the program can be run first by opening terminal and establishing a connection to MongoDB (see MongoDB docs for requirements on your computer). Then starting the server file in node via terminal and inserting command npm start. 
+
+
+
+## View castify demo here --->>  https://drive.google.com/file/d/1C6dOIf9mV0lagAcQQ5eHWCqyQv_6fEy4/view
+
+
+
+![ ](addressbook/client/src/images/pic1.png)
+
+![ ](addressbook/client/src/images/pic2.png)
+
+![ ](addressbook/client/src/images/pic3.png)
+
+![ ](addressbook/client/src/images/pic4.png)
+
+![ ](addressbook/client/src/images/pic5.png)

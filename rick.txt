@@ -1,0 +1,10 @@
+Would like to have done more before submitting, but time available has been a little more limited lately. 
+Considering such, did want to push up changes to show some of the work done. 
+Biggest changes/additions are:
+1. Fetch API
+2. Case insensitive search
+3. Search database by first and last name.
+4. Rendering of message to user when no matches are found in database. 
+
+I did look over all the points from review, and have a better sense of the mindset that I'd like to establish as I continue to grow. 
+Thanks again for taking the time to review.
